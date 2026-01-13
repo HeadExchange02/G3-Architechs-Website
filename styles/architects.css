@@ -154,6 +154,7 @@ main > section{
 .facts-container{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
+   justify-content: center;
 
 }
 
@@ -199,8 +200,13 @@ main > section{
       flex-direction: column;
    }
 
-   .team-img-container{
+   .team-img-container, .facts-container{
       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .facts-container{
+      justify-items: center;
+      gap: 24px;
    }
 
    .our-features{
@@ -208,6 +214,9 @@ main > section{
 }
 
 }
+
+
+/* tablet size */
 
 @media screen and (min-width: 576px) and (max-width:992px) {
    
@@ -217,4 +226,5 @@ main > section{
    .our-features{
       margin: 50px auto;
    }
+
 }
