@@ -149,6 +149,32 @@ main > section{
 
 
 
+/* features sections */
+.features{
+   display: flex;
+   gap: 140px;
+}
+
+#features-section-title{
+   border-left: 5px solid #ff900e;
+   padding-left: 20px;
+}
+
+.features-card{
+   padding: 30px;
+   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+
+.features-card .features-title{
+   font-weight: 600;
+   font-size: 1.25rem;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+
 /* Some facts */
 
 .facts-container{
